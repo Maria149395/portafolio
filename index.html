@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Olayne Espiritu Diaz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="stars-container" id="stars"></div>
+    <div class="floating-hearts" id="hearts"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-logo">Olayne</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#inicio" onclick="closeMenu()">Inicio</a></li>
+            <li><a href="#sobre-mi" onclick="closeMenu()">Sobre Mi</a></li>
+            <li><a href="#experiencia" onclick="closeMenu()">Experiencia</a></li>
+            <li><a href="#estudios" onclick="closeMenu()">Estudios</a></li>
+            <li><a href="#certificados" onclick="closeMenu()">Cuaderno Digital</a></li>
+            <li><a href="#proyectos" onclick="closeMenu()">Proyectos</a></li>
+            <li><a href="#contacto" onclick="closeMenu()">Contacto</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle" onclick="toggleMenu()">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO ==================== -->
+    <section class="hero" id="inicio">
+        <div class="hero-content">
+            <div class="hero-photo-wrapper">
+                <div class="hero-photo">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+            </div>
+            <p class="subtitle">Bienvenidos a mi portafolio</p>
+            <h1>Olayne Guadalupe Maria Isabel<br>Espiritu Diaz</h1>
+            <p>Estudiante de Ingenieria de Sistemas apasionada por la tecnologia, la ciberseguridad y las redes. Con experiencia en practicas pre-profesionales en el sector minero y una constante busqueda de crecimiento profesional.</p>
+            <div class="hero-buttons">
+                <a href="#sobre-mi" class="btn btn-primary"><i class="fas fa-user"></i> Conoceme</a>
+                <a href="#certificados" class="btn btn-outline"><i class="fas fa-certificate"></i> Certificados</a>
+                <a href="#proyectos" class="btn btn-outline"><i class="fas fa-code"></i> Proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- BTS Quote 1 -->
+    <div class="bts-quote">
+        <blockquote>"No tienes que ser perfecto para ser increible. Solo necesitas creer en ti mismo."</blockquote>
+        <div class="quote-author">- RM, BTS</div>
+    </div>
+
+    <!-- ==================== STATS ==================== -->
+    <section class="stats-section">
+        <div class="stats-grid">
+            <div class="stat-item reveal">
+                <h3>14+</h3>
+                <p>Certificaciones</p>
+            </div>
+            <div class="stat-item reveal">
+                <h3>5+</h3>
+                <p>Proyectos</p>
+            </div>
+            <div class="stat-item reveal">
+                <h3>3</h3>
+                <p>Meses de Practicas</p>
+            </div>
+            <div class="stat-item reveal">
+                <h3>9no</h3>
+                <p>Semestre</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SOBRE MI ==================== -->
+    <section class="about" id="sobre-mi">
+        <div class="section-title reveal">
+            <h2>Sobre Mi</h2>
+            <p>Datos personales, academicos y habilidades</p>
+        </div>
+        <div class="about-grid">
+            <div class="about-card reveal-left">
+                <h3><i class="fas fa-id-card"></i> Datos Personales</h3>
+                <div class="info-item">
+                    <span class="label">Nombre:</span>
+                    <span class="value">Espiritu Diaz Olayne Guadalupe Maria Isabel</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Carrera:</span>
+                    <span class="value">Ingenieria de Sistemas</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Ciclo:</span>
+                    <span class="value">9no Semestre</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Institucion:</span>
+                    <span class="value">Universidad Nacional del Centro del Peru (UNCP)</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Lenguaje:</span>
+                    <span class="value">Python</span>
+                </div>
+                <div class="info-item">
+                    <span class="label">Email:</span>
+                    <span class="value">isabel14myg@gmail.com</span>
+                </div>
+                <div class="contact-banner">
+                    <a href="mailto:isabel14myg@gmail.com" class="contact-item"><i class="fas fa-envelope"></i> Email</a>
+                    <a href="https://www.linkedin.com/in/olayne-guadalupe-mar%C3%ADa-isabel-esp%C3%ADritu-d%C3%ADaz-b545a2347" target="_blank" class="contact-item"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://github.com/Maria149395" target="_blank" class="contact-item"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+            <div class="about-card reveal-right">
+                <h3><i class="fas fa-user-circle"></i> Presentacion</h3>
+                <p class="profile-text">
+                    Estudiante de Ingenieria de Sistemas en la Universidad Nacional del Centro del Peru, cursando el 9no semestre. Poseo solidos conocimientos en ciberseguridad, redes de computadoras, ensamblaje de equipos y gestion empresarial. Con experiencia en practicas pre-profesionales en la Unidad Minera Animon (Chungar/Volcan) en el area de Tecnologias de la Informacion, Comunicacion y Automatizacion (TICA). Me destaco por mi responsabilidad, puntualidad, capacidad de aprendizaje rapido y orientacion a resultados. Apasionada por la investigacion tecnologica, he participado en proyectos de realidad holografica aplicada a la medicina, obteniendo reconocimientos a nivel universitario.
+                </p>
+            </div>
+            <div class="about-card reveal" style="grid-column: 1 / -1;">
+                <h3><i class="fas fa-cogs"></i> Habilidades y Competencias</h3>
+                <div class="skills-list">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Power BI</span>
+                    <span class="skill-tag">Microsoft Office</span>
+                    <span class="skill-tag">Ciberseguridad</span>
+                    <span class="skill-tag">Redes de Computadoras</span>
+                    <span class="skill-tag">Soporte Tecnico</span>
+                    <span class="skill-tag">Ensamblaje de Equipos</span>
+                    <span class="skill-tag">DICOM / Imagenes Medicas</span>
+                    <span class="skill-tag">Modelamiento 3D</span>
+                    <span class="skill-tag">Gestion Digital</span>
+                    <span class="skill-tag">Plataformas Virtuales</span>
+                    <span class="skill-tag">Trabajo en Equipo</span>
+                    <span class="skill-tag">Comunicacion Efectiva</span>
+                    <span class="skill-tag">Investigacion Cientifica</span>
+                    <span class="skill-tag">Resolucion de Problemas</span>
+                    <span class="skill-tag">Adaptabilidad</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BTS Quote 2 -->
+    <div class="bts-quote">
+        <blockquote>"El trabajo duro nunca traiciona."</blockquote>
+        <div class="quote-author">- BTS</div>
+    </div>
+
+    <!-- ==================== EXPERIENCIA ==================== -->
+    <section class="experience" id="experiencia">
+        <div class="section-title reveal">
+            <h2>Experiencia Profesional</h2>
+            <p>Practicas pre-profesionales y logros</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item reveal-left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Ene 2026 - Mar 2026</span>
+                    <h4>Practicante Pre-Profesional</h4>
+                    <div class="company">Compania Minera Chungar S.A.C. - Unidad Minera Animon</div>
+                    <p>Practicas en el area de TICA (Tecnologias de la Informacion, Comunicacion y Automatizacion) en la Jefatura de TI Chungar. Demostrando puntualidad, responsabilidad y eficiencia en el desarrollo de las funciones asignadas. Certificada por el Jefe de Recursos Humanos de la U.E.A. Chungar.</p>
+                </div>
+            </div>
+            <div class="timeline-item reveal-right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <span class="timeline-date">Feb 2024 - May 2024</span>
+                    <h4>Investigadora - Semillero de Investigacion</h4>
+                    <div class="company">Facultad de Ingenieria de Sistemas - UNCP</div>
+                    <p>Integrante del equipo de investigacion del proyecto de Pantalla Volumetrica para Simulaciones Quirurgicas de Columna Lumbar. Primer puesto a nivel facultad y segundo puesto general. Financiamiento otorgado: S/. 5,000.00. Articulo cientifico publicado en formato IEEE.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ESTUDIOS ==================== -->
+    <section class="education" id="estudios">
+        <div class="section-title reveal">
+            <h2>Formacion Academica</h2>
+            <p>Estudios y certificaciones que respaldan mi perfil profesional</p>
+        </div>
+        <div class="edu-cards">
+            <div class="edu-card reveal">
+                <div class="edu-icon"><i class="fas fa-university"></i></div>
+                <h4>Ingenieria de Sistemas</h4>
+                <div class="edu-institution">Universidad Nacional del Centro del Peru</div>
+                <div class="edu-date">En curso - 9no Semestre</div>
+                <p>Formacion integral en sistemas de informacion, desarrollo de software, redes, ciberseguridad y gestion tecnologica.</p>
+            </div>
+            <div class="edu-card reveal">
+                <div class="edu-icon"><i class="fas fa-shield-alt"></i></div>
+                <h4>Analista Junior de Ciberseguridad</h4>
+                <div class="edu-institution">Cisco Networking Academy</div>
+                <div class="edu-date">15 de julio de 2025</div>
+                <p>Trayectoria profesional completa incluyendo Introduccion a la Ciberseguridad (11 jul 2025).</p>
+            </div>
+            <div class="edu-card reveal">
+                <div class="edu-icon"><i class="fas fa-network-wired"></i></div>
+                <h4>Tecnico de Redes</h4>
+                <div class="edu-institution">Cisco Networking Academy</div>
+                <div class="edu-date">3 de mayo de 2025</div>
+                <p>Fundamentos de Redes, Direccionamiento y Solucion de Problemas, Soporte y Seguridad de Redes.</p>
+            </div>
+            <div class="edu-card reveal">
+                <div class="edu-icon"><i class="fas fa-laptop-medical"></i></div>
+                <h4>Ensamblaje y Reparacion de Equipos</h4>
+                <div class="edu-institution">Instituto SISE</div>
+                <div class="edu-date">18 de junio de 2025</div>
+                <p>Curso virtual de ensamblaje, diagnostico y reparacion de equipos de computo.</p>
+            </div>
+            <div class="edu-card reveal">
+                <div class="edu-icon"><i class="fas fa-chart-line"></i></div>
+                <h4>Gestion y Emprendimiento</h4>
+                <div class="edu-institution">Fundacion Romero / Asoc. Bancos del Peru</div>
+                <div class="edu-date">29 de octubre de 2025</div>
+                <p>"Como manejar mi negocio?" y "Llevando tu negocio al siguiente nivel" - Finanzas, estructuracion y herramientas empresariales.</p>
+            </div>
+            <div class="edu-card reveal">
+                <div class="edu-icon"><i class="fas fa-ship"></i></div>
+                <h4>Importacion desde China</h4>
+                <div class="edu-institution">Instituto SISE</div>
+                <div class="edu-date">27 de marzo de 2025</div>
+                <p>Curso virtual sobre logistica y procesos de importacion internacional.</p>
+            </div>
+            <div class="edu-card reveal">
+                <div class="edu-icon"><i class="fas fa-robot"></i></div>
+                <h4>Google IA Summit for Education</h4>
+                <div class="edu-institution">Google</div>
+                <div class="edu-date">16 de junio de 2025</div>
+                <p>Certificado de participacion en summit internacional sobre Inteligencia Artificial aplicada a la educacion.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BTS Quote 3 -->
+    <div class="bts-quote">
+        <blockquote>"Si no puedes volar, corre. Si no puedes correr, camina. Pero sigue avanzando."</blockquote>
+        <div class="quote-author">- Martin Luther King Jr. (citado por BTS)</div>
+    </div>
+
+    <!-- ==================== CUADERNO DIGITAL ==================== -->
+    <section class="certificates" id="certificados">
+        <div class="section-title reveal">
+            <h2>Cuaderno Digital</h2>
+            <p>Mis certificados y constancias obtenidas - haz clic para ampliar</p>
+        </div>
+
+        <!-- Filtros: ahora con data-filter en vez de onclick inline -->
+        <div class="cert-filter reveal">
+            <button class="cert-filter-btn active" data-filter="all">Todos</button>
+            <button class="cert-filter-btn" data-filter="cisco">Cisco</button>
+            <button class="cert-filter-btn" data-filter="sise">SISE</button>
+            <button class="cert-filter-btn" data-filter="negocio">Negocios</button>
+            <button class="cert-filter-btn" data-filter="practicas">Practicas</button>
+            <button class="cert-filter-btn" data-filter="otro">Otros</button>
+        </div>
+
+        <div class="cert-grid">
+            <div class="cert-card reveal" data-category="otro" onclick="openModal('./assets/certificates/cert_1.png')">
+                <div class="cert-img-wrap"><img src="./assets/certificates/cert_1.png" alt="CV"></div>
+                <div class="cert-info">
+                    <h4>Curriculum Vitae</h4>
+                    <div class="cert-issuer">Hoja de Vida Profesional</div>
+                    <span class="cert-badge">CV</span>
+                </div>
+            </div>
+
+            <div class="cert-card reveal" data-category="otro" onclick="openModal('./assets/certificates/cert_2.png')">
+                <div class="cert-img-wrap"><img src="./assets/certificates/cert_2.png" alt="Proyectos Academicos"></div>
+                <div class="cert-info">
+                    <h4>Participacion en Proyectos Academicos</h4>
+                    <div class="cert-issuer">UNCP - Semillero de Investigacion</div>
+                    <div class="cert-date">2024</div>
+                    <span class="cert-badge">Investigacion</span>
+                </div>
+            </div>
+
+            <div class="cert-card reveal" data-category="negocio" onclick="openModal('./assets/certificates/cert_3.png')">
+                <div class="cert-img-wrap"><img src="./assets/certificates/cert_3.png" alt="Manejar mi negocio"></div>
+                <div class="cert-info">
+                    <h4>Como manejar mi negocio?</h4>
+                    <div class="cert-issuer">Fundacion Romero</div>
+                    <div class="cert-date">29 de octubre de 2025</div>
+                    <span class="cert-badge">Negocios</span>
+                </div>
+            </div>
+
+            <div class="cert-card reveal" data-category="negocio" onclick="openModal('./assets/certificates/cert_4.png')">
+                <div class="cert-img-wrap"><img src="./assets/certificates/cert_4.png" alt="Negocio siguiente nivel"></div>
+                <div class="cert-info">
+                    <h4>Llevando tu negocio al siguiente nivel</h4>
+                    <div class="cert-issuer">Fundacion Romero</div>
+                    <div class="cert-date">29 de octubre de 2025</div>
+                    <span class="cert-badge">Negocios</span>
+                </div>
+            </div>
+
+            <div class="cert-card reveal" data-category="cisco" onclick="openModal('./assets/certificates/cert_5.png')">
+                <div class="cert-img-wrap"><img src="./assets/certificates/cert_5.png" alt="Cybersecurity Analyst"></div>
+                <div class="cert-info">
+                    <h4>Junior Cybersecurity Analyst Career Path</h4>
+                    <div class="cert-issuer">Cisco Networking Academy</div>
+                    <div class="cert-date">15 de julio de 2025</div>
+                    <span class="cert-badge">Ciberseguridad</span>
+                </div>
+            </div>
+
+            <div class="cert-card reveal" data-category="cisco" onclick="openModal('./assets/certificates/cert_6.png')">
+                <div class="cert-img-wrap"><img src="./assets/certificates/cert_6.png" alt="Intro Cybersecurity"></div>
+                <div class="cert-info">
+                    <h4>Introduction to Cybersecurity</h4>
+                    <div class="cert-issuer">Cisco Networking Academy</div>
+                    <div class="cert-date">11 de julio de 2025</div>
+                    <span class="cert-badge">Ciberseguridad</span>
+                </div>
+            </div>
+
+            <div class="cert-card reveal" data-category="otro" onclick="openModal('./assets/certificates/cert_7.png')">
+                <div class="cert-img-wrap"><img src="./assets/certificates/cert_7.png" alt="Google IA Summit"></div>
+                <div class="cert-info">
+                    <h4>Google IA Summit for Education</h4>
+                    <div class="cert-issuer">Google</div>
+                    <div class="cert-date">16 de junio de 2025</div>
+                    <span class="cert-badge">IA</span>
+                </div>
+            </div>
+
+            <div class="cert-card reveal" data-category="sise" onclick="openModal('./assets/certificates/cert_8.png')">
+                <div class="cert-img-wrap"><img src="./assets/certificates/cert_8.png" alt="Ensamblaje"></div>
+                <div class="cert-info">
+                    <h4>Ensamblaje y Reparacion de Equipos de Computo</h4>
+                    <div class="cert-issuer">Instituto SISE</div>
+                    <div class="cert-date">18 de junio de 2025</div>
+                    <span class="cert-badge">Hardware</span>
+                </div>
+            </div>
+
+            <div class="cert-card reveal" data-category="cisco" onclick="openModal('./assets/certificates/cert_9.png')">
+                <div class="cert-img-wrap"><img src="./assets/certificates/cert_9.png" alt="Network Technician"></div>
+                <div class="cert-info">
+                    <h4>Network Technician Career Path</h4>
+                    <div class="cert-issuer">Cisco Networking Academy</div>
+                    <div class="cert-date">3 de mayo de 2025</div>
+                    <span class="cert-badge">Redes</span>
+                </div>
+            </div>
+
+            <div class="cert-card reveal" data-category="cisco" onclick="openModal('./assets/certificates/cert_10.png')">
+                <div class="cert-img-wrap"><img src="./assets/certificates/cert_10.png" alt="Network Support"></div>
+                <div class="cert-info">
+                    <h4>Network Support and Security</h4>
+                    <div class="cert-issuer">Cisco Networking Academy</div>
+                    <div class="cert-date">3 de mayo de 2025</div>
+                    <span class="cert-badge">Redes</span>
+                </div>
+            </div>
+
+            <div class="cert-card reveal" data-category="cisco" onclick="openModal('./assets/certificates/cert_11.png')">
+                <div class="cert-img-wrap"><img src="./assets/certificates/cert_11.png" alt="Network Addressing"></div>
+                <div class="cert-info">
+                    <h4>Network Addressing and Basic Troubleshooting</h4>
+                    <div class="cert-issuer">Cisco Networking Academy</div>
+                    <div class="cert-date">2 de mayo de 2025</div>
+                    <span class="cert-badge">Redes</span>
+                </div>
+            </div>
+
+            <div class="cert-card reveal" data-category="cisco" onclick="openModal('./assets/certificates/cert_12.png')">
+                <div class="cert-img-wrap"><img src="./assets/certificates/cert_12.png" alt="Networking Basics"></div>
+                <div class="cert-info">
+                    <h4>Networking Basics</h4>
+                    <div class="cert-issuer">Cisco Networking Academy</div>
+                    <div class="cert-date">1 de mayo de 2025</div>
+                    <span class="cert-badge">Redes</span>
+                </div>
+            </div>
+
+            <div class="cert-card reveal" data-category="sise" onclick="openModal('./assets/certificates/cert_13.png')">
+                <div class="cert-img-wrap"><img src="./assets/certificates/cert_13.png" alt="Importacion"></div>
+                <div class="cert-info">
+                    <h4>Aprende a Importar de China y del Mundo</h4>
+                    <div class="cert-issuer">Instituto SISE</div>
+                    <div class="cert-date">27 de marzo de 2025</div>
+                    <span class="cert-badge">Importacion</span>
+                </div>
+            </div>
+
+            <div class="cert-card reveal" data-category="practicas" onclick="openModal('./assets/certificates/cert_14.png')">
+                <div class="cert-img-wrap"><img src="./assets/certificates/cert_14.png" alt="Constancia Practicas"></div>
+                <div class="cert-info">
+                    <h4>Constancia de Practicas Pre-Profesionales</h4>
+                    <div class="cert-issuer">Compania Minera Chungar S.A.C.</div>
+                    <div class="cert-date">Enero - Marzo 2026</div>
+                    <span class="cert-badge">Practicas</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PROYECTOS ==================== -->
+    <section class="projects" id="proyectos">
+        <div class="section-title reveal">
+            <h2>Proyectos</h2>
+            <p>Investigacion, desarrollo y aplicaciones tecnologicas</p>
+        </div>
+        <div class="projects-grid">
+
+            <!-- PROYECTO DESTACADO -->
+            <div class="project-card project-featured reveal">
+                <div class="featured-badge"><i class="fas fa-star"></i> Proyecto Destacado</div>
+                <div class="project-icon"><i class="fas fa-cube"></i></div>
+                <h3>Pantalla Volumetrica para Simulaciones Quirurgicas de Columna Lumbar</h3>
+                <div class="project-meta">
+                    <span><i class="fas fa-trophy"></i> 1er puesto - Facultad</span>
+                    <span><i class="fas fa-medal"></i> 2do puesto - General</span>
+                    <span><i class="fas fa-coins"></i> S/. 5,000.00</span>
+                    <span><i class="fas fa-file-alt"></i> Articulo IEEE</span>
+                </div>
+                <p>
+                    Diseno de los lineamientos de una pantalla volumetrica de barrido traslacional vertical para simulaciones quirurgicas de columna lumbar. El proyecto aborda la problematica de la visualizacion 3D en cirugia espinal, proponiendo un sistema que proyecta multiples cortes bidimensionales (slices) de imagenes medicas DICOM sobre una pantalla translucida movil, generando volumenes 3D reales mediante persistencia retiniana. Se desarrollo una Matriz de Trazabilidad de Requisitos (RTM) vinculando necesidades medicas con metricas de rendimiento. El sistema incluye procesamiento de imagenes DICOM, reconstruccion 3D con Marching Cubes, voxelizacion, y un modelo matematico de barrido vertical sincronizado.
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">DICOM</span>
+                    <span class="tech-tag">Marching Cubes</span>
+                    <span class="tech-tag">Procesamiento 3D</span>
+                    <span class="tech-tag">Unidades Hounsfield</span>
+                    <span class="tech-tag">Proyeccion DLP</span>
+                    <span class="tech-tag">IEEE</span>
+                </div>
+            </div>
+
+            <!-- PROYECTO 2 -->
+            <div class="project-card reveal">
+                <div class="project-icon"><i class="fas fa-network-wired"></i></div>
+                <h3>Sistema de Monitoreo de Red con Alertas en Tiempo Real</h3>
+                <div class="project-meta">
+                    <span><i class="fas fa-graduation-cap"></i> Proyecto Academico</span>
+                    <span><i class="fas fa-calendar"></i> 2025</span>
+                </div>
+                <p>
+                    Desarrollo de un sistema en Python para el monitoreo continuo de dispositivos en una red local. Detecta caidas de servicio, latencia elevada y cambios en la topologia de red. Envia alertas automaticas por correo electronico cuando se identifican anomalias. Implementa escaneo de puertos y analisis de trafico basico para identificar posibles vulnerabilidades.
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Scapy</span>
+                    <span class="tech-tag">SMTP</span>
+                    <span class="tech-tag">TCP/IP</span>
+                    <span class="tech-tag">Sockets</span>
+                </div>
+            </div>
+
+            <!-- PROYECTO 3 -->
+            <div class="project-card reveal">
+                <div class="project-icon"><i class="fas fa-chart-bar"></i></div>
+                <h3>Dashboard de Indicadores de Gestion Minera</h3>
+                <div class="project-meta">
+                    <span><i class="fas fa-industry"></i> Practicas Chungar</span>
+                    <span><i class="fas fa-calendar"></i> 2026</span>
+                </div>
+                <p>
+                    Creacion de un dashboard interactivo en Power BI para visualizar indicadores clave del area de TICA de la Unidad Minera Animon. Incluye metricas de disponibilidad de equipos, incidencias de red, tiempo de respuesta de soporte tecnico y estado de la infraestructura de comunicaciones. Facilito la toma de decisiones en la jefatura de TI.
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Power BI</span>
+                    <span class="tech-tag">SQL</span>
+                    <span class="tech-tag">Excel</span>
+                    <span class="tech-tag">DAX</span>
+                </div>
+            </div>
+
+            <!-- PROYECTO 4 -->
+            <div class="project-card reveal">
+                <div class="project-icon"><i class="fas fa-database"></i></div>
+                <h3>Sistema de Inventario de Activos TI</h3>
+                <div class="project-meta">
+                    <span><i class="fas fa-graduation-cap"></i> Proyecto Academico</span>
+                    <span><i class="fas fa-calendar"></i> 2025</span>
+                </div>
+                <p>
+                    Aplicacion web desarrollada en Python (Flask) con base de datos SQL para gestionar el inventario de activos tecnologicos: computadoras, servidores, equipos de red y perifericos. Permite registro, busqueda avanzada, generacion de reportes en PDF y seguimiento del ciclo de vida de cada equipo con historial de mantenimientos.
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Flask</span>
+                    <span class="tech-tag">SQLite</span>
+                    <span class="tech-tag">HTML/CSS</span>
+                    <span class="tech-tag">Bootstrap</span>
+                </div>
+            </div>
+
+            <!-- PROYECTO 5 -->
+            <div class="project-card reveal">
+                <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
+                <h3>Escaner Basico de Vulnerabilidades de Red</h3>
+                <div class="project-meta">
+                    <span><i class="fas fa-graduation-cap"></i> Proyecto Academico</span>
+                    <span><i class="fas fa-calendar"></i> 2025</span>
+                </div>
+                <p>
+                    Herramienta en Python para escaneo automatizado de puertos abiertos, deteccion de servicios expuestos y verificacion de configuraciones inseguras en redes locales. Genera reportes con recomendaciones de hardening basadas en las mejores practicas de ciberseguridad de Cisco. Desarrollado como parte de la trayectoria de Analista Junior de Ciberseguridad.
+                </p>
+                <div class="tech-stack">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Nmap</span>
+                    <span class="tech-tag">Sockets</span>
+                    <span class="tech-tag">JSON</span>
+                    <span class="tech-tag">Ciberseguridad</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer" id="contacto">
+        <div class="footer-logo">Olayne Espiritu Diaz</div>
+        <p>Ingenieria de Sistemas - UNCP | 9no Semestre</p>
+        <div class="footer-links">
+            <a href="mailto:isabel14myg@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/olayne-guadalupe-mar%C3%ADa-isabel-esp%C3%ADritu-d%C3%ADaz-b545a2347" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Maria149395" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="bts-heart">"I purple you" 💜 - BTS</div>
+        <div class="copyright">&copy; 2026 Olayne Espiritu Diaz. Todos los derechos reservados.</div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="modal">
+        <button class="modal-close" onclick="closeModal()">&times;</button>
+        <div class="modal-content">
+            <img id="modalImg" src="" alt="Certificado">
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
